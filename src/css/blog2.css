@@ -1,0 +1,149 @@
+.detail-blog {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  justify-content: center;
+  padding: 20px 240px 50px ;
+  position: relative;
+  width: 100%;
+}
+
+.detail-blog .header {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.detail-blog .blog-detail {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.detail-blog .sah-negara {
+  align-self: stretch;
+  color: var(--lofi-secondary);
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.50px;
+  line-height: 72px;
+  position: relative;
+}
+
+.detail-blog .text-wrapper {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 36px;
+  position: relative;
+}
+
+.detail-blog .blog-tag {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.detail-blog .tag {
+  align-items: center;
+  background-color: #1340744c;
+  border-radius: 5px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+}
+
+.detail-blog .div {
+  color: #134074;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 36px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.detail-blog .foto-blog {
+  width: 100%;
+  height: 394px; /* or whatever you need */
+  background-image: url('../assets/img/blog/foto-blog.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  border-radius: 12px; /* optional */
+}
+
+
+
+
+.detail-blog .blog-teks {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 21px;
+  position: relative;
+  width: 100%;
+}
+
+.detail-blog .teks-isi {
+  align-self: stretch;
+  color: var(--lofi-secondary);
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+}
+
+.detail-blog .span {
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 0.10px;
+}
+
+.detail-blog .text-wrapper-2 {
+  color: #000000;
+  font-family: "Archivo-Regular", Helvetica;
+  letter-spacing: 0.10px;
+}
+
+.detail-blog .teks-isi-2 {
+  align-self: stretch;
+  color: var(--lofi-secondary);
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+}

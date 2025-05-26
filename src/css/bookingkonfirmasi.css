@@ -1,0 +1,144 @@
+.base-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  padding: 40px 160px;
+  position: relative;
+  width: 100%;
+}
+
+.base-4 .frame-atas {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.base-4 .frame-atas .frame-selection {
+  align-items: center;
+  border: 1px solid;
+  border-color: #33333380;
+  border-radius: 5px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  height: 50px;
+  justify-content: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.base-4 .frame-atas .img {
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.base-4 .frame-atas .text-wrapper {
+  color: #333333;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 19.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.text-wrapper-bold {
+  color: #333333;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.50px;
+  line-height: 19.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.base-4 .frame-atas .div {
+  color: #333333;
+  font-family: "Archivo-Black", Helvetica;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.50px;
+  line-height: 19.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.base-4 .frame-atas .frame-selection-2 {
+  align-items: center;
+  background-color: #66666659;
+  border: 1px solid;
+  border-color: #33333380;
+  border-radius: 5px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  height: 50px;
+  justify-content: center;
+  opacity: 0.5;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.base-4 .frame-atas .text-wrapper-2 {
+  color: #666666;
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.50px;
+  line-height: 19.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.base-4 .form-booking {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #00000033;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+  position: relative;
+}
+
+.base-4 .form-booking .frame-booking-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.base-4 .form-booking .text-wrapper-18 {
+  align-self: stretch;
+  color: #333333;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+/*  */
+

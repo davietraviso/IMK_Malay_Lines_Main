@@ -1,0 +1,211 @@
+.base-4 .frame-asal-kargo {
+  align-items: center;
+  border: 1px solid;
+  border-color: #00000033;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  position: relative;
+}
+
+.base-4 .frame-asal-kargo .frame-alamat-pick {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 23px;
+  position: relative;
+  width: 100%;
+}
+
+.base-4 .frame-asal-kargo .text-wrapper {
+  align-self: stretch;
+  color: #333333;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.base-4 .frame-asal-kargo .div {
+  align-self: stretch;
+  color: #33333380;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+}
+
+.base-4 .frame-asal-kargo .div-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 22px;
+  position: relative;
+  width: 100%;
+}
+
+.base-4 .frame-asal-kargo .text-wrapper-2 {
+  align-self: stretch;
+  color: #333333;
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.base-4 .frame-asal-kargo .frame-detail-pembeli {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: #00000080;
+  border-radius: 5px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 20px;
+  position: relative;
+  width: 100%;
+}
+
+.base-4 .frame-asal-kargo .text-wrapper-3 {
+  color: #333333;
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.base-4 .frame-asal-kargo .text-wrapper-4 {
+  color: #666666;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.base-4 .frame-asal-kargo .frame-tambah-pembeli {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: #00000080;
+  border-radius: 5px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.base-4 .frame-asal-kargo .text-wrapper-5 {
+  color: #666666;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.base-4 .frame-asal-kargo .p {
+  align-self: stretch;
+  color: #333333;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+}
+
+.base-4 .frame-asal-kargo .frame-tombol {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+}
+
+.base-4 .frame-asal-kargo .tombol {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #00000033;
+  border-radius: 12px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  overflow: hidden;
+  padding: 10px 25px;
+  position: relative;
+}
+
+.base-4 .frame-asal-kargo .text-wrapper-6 {
+  color: #333333;
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.20px;
+  line-height: 25.4px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.base-4 .frame-asal-kargo .simpan-lanjutkan-wrapper {
+  align-items: center;
+  background-color: #134074;
+  border-radius: 12px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  overflow: hidden;
+  padding: 10px 25px;
+  position: relative;
+}
+
+.base-4 .frame-asal-kargo .simpan-lanjutkan {
+  color: #ffffff;
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.20px;
+  line-height: 25.4px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

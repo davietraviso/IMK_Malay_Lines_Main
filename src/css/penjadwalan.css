@@ -1,0 +1,1350 @@
+.top-jadwal {
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.578) 0%,
+    rgba(0, 0, 0, 0.406) 100%
+  ), url('../assets/img/penjadwalan/schedule.png');
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 140px 240px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.top-jadwal .products-jadwal {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto; 
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  padding: 48px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.top-jadwal .text-wrapper {
+  color: #ffffff;
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.50px;
+  line-height: 72px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.top-jadwal .div-jadwal {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+/*  */
+ 
+.form-penjadwalan {
+  align-items: center;
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 150px;
+  position: relative;
+}
+
+/* Point-to-point Header */
+
+.tabel-form {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-form .opsi {
+  align-items: center;
+  align-self: stretch;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #1340744c;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 83px;
+  justify-content: center;
+  margin-left: -2.00px;
+  margin-right: -2.00px;
+  margin-top: -2.00px;
+  padding: 10px 12px;
+  position: relative;
+  width: 100%;
+}
+
+
+
+
+
+.tabel-form .div { 
+  color: var(--lofi-primary);
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px; 
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabel-form .text-wrapper-2 {
+  color: #999;
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.tabel-form .text-wrapper-2:hover {
+  color: #134074;
+  font-weight: 600;
+}
+
+.tabel-form .text-wrapper-p2p {
+  color: #134074;
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+  border-bottom: 3px solid #134074;
+}
+
+
+.tabel-form .row-pilihan-form {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 35px;
+  /* justify-content: center; */
+  position: relative;
+  width: 100%;
+}
+
+.tabel-form .div-2-p2p {
+  align-items: flex-start;
+  display: inline-flex;
+  /* flex: 0 0 auto; */
+  flex-direction: column;
+  gap: 35px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-form .div-3-p2p {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: 100%  ;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-form .p {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.tabel-form .search-bar-p2p {
+  align-items: center;
+  align-self: stretch;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  height: auto;
+  padding: 12px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-form .ikon-kapal {
+  height: 21.5px;
+  position: relative;
+  width: 20.84px;
+}
+
+.tabel-form .text-wrapper-3 {
+  color: var(--lofi-secondary);
+  flex: 1;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 27px;
+  position: relative;
+  justify-content: center;
+}
+
+.tabel-form .ikon-cari {
+  height: 21.54px;
+  position: relative;
+  width: 21.41px;
+}
+
+.tabel-form .row-asal {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  /* flex: 0 0 auto; */
+  flex-direction: column;
+  gap: 35px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-form .tombol-cari {
+  align-items: center;
+  background-color: #333333;
+  color: white;
+  border-radius: 25px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 29px;
+  justify-content: center;
+  padding: 16px 30px;
+  position: relative;
+}
+
+.tabel-form .text-wrapper-4 {
+  color: var(--background);
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.50px;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabel-form .kolom-swap {
+  align-items: center;
+  /* align-self: stretch; */
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 0px 150px;
+  position: relative;
+  
+}
+
+.tabel-form .swap-button {
+  height: 55px;
+  position: relative;
+  width: 55px;
+  background-color: #333333;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
+.tabel-form .text-wrapper-5 {
+  color: #000000;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabel-form .ikon-globe {
+  height: 21.5px;
+  position: relative;
+  width: 21.5px;
+}
+
+.tabel-form .text-wrapper-6 {
+  color: var(--lofi-secondary);
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabel-form .tombol-cari-2 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--lofi-primary);
+  border-radius: 25px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 29px;
+  justify-content: center;
+  padding: 16px 30px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-form .cari-jadwal {
+  color: var(--background);
+  flex: 1;
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.50px;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.tabel-form .form-tanggal {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+}
+
+.tabel-form .ikon-tanggal {
+  height: 21.5px;
+  position: relative;
+  width: 20.5px;
+}
+
+.tabel-form .text-wrapper-7 {
+  color: var(--lofi-secondary);
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2.00px;
+  line-height: 27px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabel-form .arrow-down {
+  height: 8.6px;
+  position: relative;
+  width: 17.33px;
+}
+
+.tabel-form .div-wrapper-p2p {
+  align-items: center;
+  background-color: #333333;
+  color: white;
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  padding: 16px 40px;
+  position: relative;
+}
+
+
+/* Point-to-point Detail */
+
+.tabel-detail {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-detail .jumlah-hasil {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #000000;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-detail .text-wrapper-12 {
+  color: #000000;
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.50px;
+  line-height: 27px;
+  margin-top: -1.00px;
+  position: relative;
+  width: 100%;
+}
+
+
+.tabel-detail .detail-point {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  justify-content: center;
+  padding: 16px 16px 43px;
+  position: relative;
+  width: 100%;
+}
+
+.top-detail {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #1340744c;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.top-detail .div {
+  color: var(--lofi-primary);
+  /* font-family: "Archivo-Medium", Helvetica; */
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.top-detail .text-wrapper {
+  font-weight: 500;
+  letter-spacing: 0.10px;
+  font-family: "Archivo-Bold", Helvetica;
+}
+
+.top-detail .span {
+  font-family: "Archivo-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0.10px;
+}
+
+.top-detail .port-of-discharging {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.top-detail .text-wrapper-2 {
+  letter-spacing: 0.10px;
+  font-family: "Archivo-Bold", Helvetica;
+}
+
+.top-detail .text-wrapper-3 {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.top-detail .text-wrapper-4 {
+  color: transparent;
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.detail-port {
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.detail-port .pol {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.detail-port .pol p{
+  margin: 0;
+}
+
+.detail-port .div {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.detail-port .text-wrapper {
+  font-weight: 700;
+  letter-spacing: 0.10px;
+  font-family: "Archivo-Bold", Helvetica;
+}
+
+.detail-port .span {
+  font-family: "Archivo-Medium", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0.10px;
+}
+
+.detail-port .pod {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 31px;
+  position: relative;
+}
+
+.detail-port .pod p{
+  margin: 0;
+}
+
+.detail-port .text-wrapper-2 {
+  font-family: "Archivo-Regular", Helvetica;
+  letter-spacing: 0.10px;
+}
+
+.detail-port .waktu-tercepat {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  padding: 18px 14px 18px 20px;
+  position: relative;
+}
+
+.detail-port .ikon-timer {
+  height: 21.5px;
+  position: relative;
+  width: 19px;
+}
+
+.detail-port .text-wrapper-3 {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-bottom: -2.00px;
+  margin-top: -4.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.detail-port .tanggal {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 0px 0px 20px;
+  position: relative;
+}
+
+.detail-port .senin-juni {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.detail-port .waktu-tercepat-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  padding: 18px 14px;
+  position: relative;
+}
+
+.detail-port .ikon-kapal {
+  height: 21.5px;
+  position: relative;
+  width: 20.84px;
+}
+
+.detail-port .tipe-rute {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 14px 0px 0px;
+  position: relative;
+}
+
+.detail-port .text-wrapper-4 {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.detail-port .arrow-select {
+  height: 31.35px;
+  position: relative;
+  width: 31.35px;
+}
+
+
+
+/* Jadwal Kapal Header */
+
+  /* same as above */
+
+
+/* Jadwal Kapal Detail */
+
+.world-map-2 {
+  align-items: flex-start;
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.world-map-2 .nama-peta {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 44px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.world-map-2 .nama-kapal {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.world-map-2 .text-wrapper {
+  color: #000000;
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.50px;
+  line-height: 72px;
+  margin-top: -1.00px;
+  position: relative;
+  width: 259px;
+}
+
+.world-map-2 .ikon {
+  height: 21.5px;
+  position: relative;
+  width: 19.98px;
+}
+
+.world-map-2 .hasil-pencarian {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.world-map-2 .span {
+  color: #000000;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.world-map-2 .text-wrapper-2 {
+  font-family: "Archivo-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.world-map-2 .map {
+    align-self: center;
+    height: 550px;
+    /* position: relative; */
+    width:auto;
+    /* color: #000000; */
+    
+  }
+
+/*  */
+
+.tabel-detail-2 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  justify-content: center;
+  padding: 16px 16px 43px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-detail-2 .line-port {
+  height: 49px;
+  position: relative;
+  width: 3px;
+}
+
+.tabel-detail-2 .line-port-dash {
+  height: 74.5px;
+  position: relative;
+  width: 3px;
+}
+
+.top-detail-2 {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #1340744c;
+  display: flex;
+  gap: 83px;
+  justify-content: center;
+  padding: 16px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.top-detail-2 .div {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.top-detail-2 .text-wrapper {
+  font-weight: 500;
+  letter-spacing: 0.10px;
+  font-family: "Archivo-Bold", Helvetica;
+}
+
+.top-detail-2 .span {
+  font-family: "Archivo-Black", Helvetica;
+  font-weight: 900;
+  letter-spacing: 0.10px;
+}
+
+.top-detail-2 .tahun-bangun {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.top-detail-2 .text-wrapper-2 {
+  letter-spacing: 0.10px;
+}
+
+
+
+.detail-port-2 {
+
+  gap: 30px;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.detail-port-2 .amsterdam-port-of {
+  color: var(--lofi-secondary);
+  flex: 1;
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 27px;
+  margin-top: -4.00px;
+  position: relative;
+  text-align: right;
+  margin: 0;
+}
+
+.detail-port-2 .text-wrapper {
+  color: #000000;
+  font-weight: 900;
+  letter-spacing: 0.09px;
+  font-family: "Archivo-Bold", Helvetica;
+}
+
+.detail-port-2 .span {
+  color: #868686;
+  font-family: "Archivo-Regular", Helvetica;
+  letter-spacing: 0.09px;
+}
+
+.detail-port-2 .ikon-kapal {
+  height: 21.5px;
+  position: relative;
+  width: 20.84px;
+}
+
+.detail-port-2 .kedatangan {
+  color: var(--lofi-secondary);
+  flex: 1;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 27px;
+  margin-top: -4.00px;
+  position: relative;
+  margin:0;
+}
+
+
+
+/* Jadwal Pelabuhan Header */
+
+/* same */
+
+
+/* Jadwal Pelabuhan Detail */
+
+.detail {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.detail-hasil {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #000000;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.detail-hasil .hasil-pencarian {
+  color: #000000;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.detail-hasil .text-wrapper {
+  color: #000000;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.detail-hasil .span {
+  font-family: "Archivo-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.tabel-detail-3 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  justify-content: center;
+  padding: 16px 16px 43px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-detail-3 .top-detail {
+  align-items: center;
+  align-self: stretch;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: #1340744c;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  margin-left: -2.00px;
+  margin-right: -2.00px;
+  margin-top: -2.00px;
+  padding: 10px 16px 10px 60px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-detail-3 .text-wrapper {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabel-detail-3 .terminal {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 30px 0px 120px;
+  position: relative;
+}
+
+.tabel-detail-3 .div {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.tabel-detail-3 .tanggal {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 40px 0px 80px;
+  position: relative;
+}
+
+.tabel-detail-3 .kedatangan-tanggal {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.tabel-detail-3 .div-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.tabel-detail-3 .keberangkatan {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.tabel-detail-3 .span {
+  font-weight: 500;
+  letter-spacing: 0.10px;
+}
+
+.tabel-detail-3 .text-wrapper-2 {
+  font-family: "Archivo-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0.10px;
+}
+
+.tabel-detail-3 .text-wrapper-3 {
+  color: transparent;
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabel-detail-3 .detail-port-3 {
+  align-items: center;
+  align-self: stretch;
+  background-color: #f6f6f6;
+  border-radius: 8px; 
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 12px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-detail-3 .waktu-tercepat {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  padding: 18px 14px;
+  position: relative;
+}
+
+.tabel-detail-3 .ikon-kapal {
+  height: 21.5px;
+  position: relative;
+  width: 20.84px;
+}
+
+.tabel-detail-3 .text-wrapper-4 {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-bottom: -2.00px;
+  margin-top: -4.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabel-detail-3 .ikon-gps {
+  height: 21.5px;
+  position: relative;
+  width: 21.5px;
+}
+
+.tabel-detail-3 .baltimore-seagirt {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.tabel-detail-3 .senin-juni-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 0px 0px 20px;
+  position: relative;
+}
+
+.tabel-detail-3 .tipe-rute {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 14px 0px 0px;
+  position: relative;
+}
+
+.tabel-detail-3 .text-wrapper-5 {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabel-detail-3 .arrow-select {
+  height: 31.35px;
+  position: relative;
+  width: 31.35px;
+}
+
+.tabel-detail-3 .detail-port-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  border-color: #000000;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 30px;
+  padding: 12px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-detail-3 .div-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.tabel-detail-3 .timer {
+  height: 21.5px;
+  position: relative;
+  width: 14.53px;
+}
+
+.tabel-detail-3 .text-wrapper-6 {
+  color: #000000;
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tabel-detail-3 .frame {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.tabel-detail-3 .p {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.tabel-detail-3 .text-wrapper-7 {
+  font-weight: 700;
+  letter-spacing: 0.10px;
+  font-family: "Archivo-Bold", Helvetica;
+}
+
+.tabel-detail-3 .text-wrapper-8 {
+  font-family: "Archivo-Medium", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0.10px;
+}
+
+.tabel-detail-3 .instruksi-pelayaran-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 18px 20px;
+  position: relative;
+}
+
+.tabel-detail-3 .VGM-n-a {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.tabel-detail-3 .axel-m-rsk-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  padding: 18px 20px;
+  position: relative;
+}
+
+.tabel-detail-3 .axel-m-rsk {
+  color: var(--lofi-primary);
+  font-family: "Archivo-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  margin-bottom: -17.00px;
+  margin-top: -19.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+

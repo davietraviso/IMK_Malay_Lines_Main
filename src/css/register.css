@@ -1,0 +1,377 @@
+.big-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  justify-content: center;
+  padding: 50px 150px;
+  position: relative;
+}
+
+.big-form .form-buat-akun {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #66666680;
+  border-radius: 24px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 89px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 56px 52px;
+  position: relative;
+  width: 100%;
+}
+
+.big-form .forms {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 40px;
+  justify-content: center;
+  position: relative;
+}
+
+.big-form .judul {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.big-form .text-wrapper {
+  color: #333333;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.big-form .already-have-an {
+  color: transparent;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.big-form .span {
+  color: #333333;
+}
+
+.big-form .text-wrapper-2 {
+  color: #666666;
+}
+
+.big-form .text-wrapper-3 {
+  color: #111111;
+  text-decoration: underline;
+}
+
+.big-form .div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.big-form .div-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.big-form .div-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 4px;
+  position: relative;
+}
+
+.big-form .label {
+  color: #666666;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.big-form .text-field {
+  align-self: stretch;
+  border: 1px solid;
+  border-color: #66666659;
+  border-radius: 12px;
+  height: 56px;
+  position: relative;
+  width: 100%;
+  padding-left: 15px
+}
+
+.big-form .div-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.big-form .input {
+  background: transparent;
+  border: none;
+  color: #666666;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  padding: 0;
+  position: relative;
+  width: fit-content;
+}
+
+.big-form .password-dan {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.big-form .gunakan-atau-lebih {
+  align-self: stretch;
+  color: #666666;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.big-form .check-box {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 8px 8px 8px 0px;
+  position: relative;
+}
+
+.big-form .ikon-check {
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.big-form .text-wrapper-4 {
+  color: #333333;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.big-form .some-text {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.big-form .img {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.big-form .captcha {
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.big-form .p {
+  color: #333333;
+  flex: 1;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.big-form .some-text-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.big-form .text-wrapper-5 {
+  color: #333333;
+  font-family: "Poppins-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.big-form .text-wrapper-6 {
+  text-decoration: underline;
+}
+
+.big-form .robot-check {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #333333;
+  border-radius: 18px;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 11px 24px;
+  position: relative;
+  width: 363px;
+}
+
+.big-form .text {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.big-form .text-wrapper-7 {
+  color: #333333;
+  font-family: "Poppins-Light", Helvetica;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.big-form .tombol-buat {
+  align-items: flex-start;
+  background-color: #134074;
+  border-radius: 32px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 15px 30px;
+  position: relative;
+}
+
+.big-form .text-wrapper-8 {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Poppins-Medium", Helvetica;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.big-form .gambar {
+  align-self: stretch;
+  background:  url('../assets/img/register/loginimage.jpg');
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  border-radius: 20px;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.big-form .text-bawah {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  /* gap: 512px; */
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.big-form .dropdown {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  justify-content: center;
+  padding: 0px 0px 0px 8px;
+  position: relative;
+}
+
+.big-form .icon-dropdown {
+  height: 5px;
+  position: relative;
+  width: 10px;
+}
+
+.big-form .links {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
