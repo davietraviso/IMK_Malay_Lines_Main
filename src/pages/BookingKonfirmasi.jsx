@@ -1,7 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { useState, useEffect, useRef } from "react";
 // import MainImage from '../assets/img/hero_page1.png'
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 
 
@@ -334,13 +334,23 @@ const BookingKonfirmasi = () => {
 
                                 </div>
                                 <div className="frame-tombol">
-                                    <div className="tombol">
+                                    <Link to="/booking-4" className="tombol link-universal">
+                                        <div className="text-wrapper-5">Kembali</div>
+                                        {/* <img className="img-blog" alt="Arrow right" src={ArrowRight2} /> */}
+                                    </Link>
+                            
+
+                                    <Link to="/booking-6" className="simpan-lanjutkan-wrapper link-universal">
+                                        <div className="simpan-lanjutkan">Simpan</div>
+                                        {/* <img className="img-blog" alt="Arrow right" src={ArrowRight2} /> */}
+                                    </Link>
+                                    {/* <div className="tombol">
                                     <div className="text-wrapper-3">Batal</div>
                                     </div>
 
                                     <div className="div-wrapper">
                                     <div className="text-wrapper-4">Simpan</div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

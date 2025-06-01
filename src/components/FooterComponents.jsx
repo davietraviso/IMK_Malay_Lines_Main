@@ -5,7 +5,7 @@ import ig from "../assets/img/footer/instagram.png";
 import email from "../assets/img/footer/mail.png";
 
 import { Container, Row, Col } from 'react-bootstrap'
-import ArrowRight  from "../assets/vector/arrow-right.svg";
+import ArrowRight2  from "../assets/vector/arrow-right-black.svg";
 
 import x1 from "../assets/vector/facebook-logo.svg";
 import x2 from "../assets/vector/instagram-logo.svg";
@@ -44,7 +44,7 @@ const FooterComponents = () => {
                 </div> */}
                 <Link to="/tentangkami" className="contact-us link-universal">
                     <div className="text-wrapper-2">Hubungi Kami</div>
-                    {/* <img className="img" alt="Arrow right" src={ArrowRight} /> */}
+                    <img className="img-blog" alt="Arrow right" src={ArrowRight2} />
                 </Link>
               </div>
 

@@ -28,7 +28,7 @@ import Tracking from "./pages/Tracking"
 
 
 
-export default function App() {
+export default function App() { 
   return (
     <div>
       <NavBarComponents />

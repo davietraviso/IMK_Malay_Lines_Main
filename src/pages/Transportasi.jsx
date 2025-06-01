@@ -1,12 +1,13 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 
 
 // New Transport
 
 import ArrowRight  from "../assets/vector/arrow-right.svg";
+import ArrowRight2  from "../assets/vector/arrow-right-black.svg";
 import info1 from "../assets/img/transportasi/armadainfo-1.jpg";
 import info2 from "../assets/img/transportasi/armadainfo-2.jpg";
 import info3 from "../assets/img/transportasi/armadainfo-3.jpg";
@@ -60,9 +61,20 @@ const Transportasi = () => {
                     </p>
                     </div>
 
-                    <div className="tombol">
-                    <div className="baca-infografik-kami">Baca Infografik Kami &gt;</div>
-                    </div>
+                    <a
+                        href="/assets/files/dummy_pdf.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="tombol link-universal"
+                    >
+                    <div className="baca-infografik-kami">Baca Infografik Kami </div>
+                        <img className="img" alt="Arrow right" src={ArrowRight} />
+                    </a>
+
+
+                    {/* <div className="tombol">
+                        <div className="baca-infografik-kami">Baca Infografik Kami &gt;</div>
+                    </div> */}
                 </div>
 
                 <div className="deskripsi-dan-gambar">
@@ -112,9 +124,15 @@ const Transportasi = () => {
                         meter, kapal ini mampu membawa lebih dari 20.000 TEU.
                         </p>
 
-                        <div className="content">
-                        <div className="lihat-jadwal-kapal">&gt; Lihat Jadwal Kapal</div>
-                        </div>
+                        {/* <div className="content">
+                            <div className="lihat-jadwal-kapal">Lihat Jadwal Kapal</div>
+                            <img className="img" alt="Arrow right" src={ArrowRight} />
+                        </div> */}
+
+                        <Link to="/penjadwalan" className="content link-universal">
+                            <div className="lihat-jadwal-kapal">Lihat Jadwal Kapal</div>
+                            <img className="img" alt="Arrow right" src={ArrowRight} />
+                        </Link>
                     </div>
                     </div>
 
@@ -132,9 +150,10 @@ const Transportasi = () => {
                             meter, kapal ini mampu membawa lebih dari 20.000 TEU.
                             </p>
 
-                            <div className="content">
-                            <div className="lihat-jadwal-kapal">&gt; Lihat Jadwal Kapal</div>
-                            </div>
+                            <Link to="/penjadwalan" className="content link-universal">
+                            <div className="lihat-jadwal-kapal">Lihat Jadwal Kapal</div>
+                                <img className="img" alt="Arrow right" src={ArrowRight} />
+                            </Link>
                         </div>
 
                         <div className="div-wrapper">
@@ -166,9 +185,10 @@ const Transportasi = () => {
                         pengangkutan kargo jarak jauh.
                         </p>
 
-                        <div className="content">
-                        <div className="lihat-jadwal-kapal">&gt; Lihat Jadwal Kapal</div>
-                        </div>
+                        <Link to="/penjadwalan" className="content link-universal">
+                            <div className="lihat-jadwal-kapal">Lihat Jadwal Kapal</div>
+                            <img className="img" alt="Arrow right" src={ArrowRight} />
+                        </Link>
                     </div>
                     </div>
                 </div>
@@ -182,11 +202,12 @@ const Transportasi = () => {
 
                         <div className="text-wrapper-7">Jenis Tipe Kargo</div>
 
-                        <div className="tombol-2">
-                        <div className="text-wrapper-8">Baca Selengkapnya</div>
+                        <Link to="/layanan" className="tombol-2 link-universal">
+                            <div className="text-wrapper-8">Baca Selengkapnya</div>
+                            <img className="img-arrow" alt="Arrow right" src={ArrowRight2} />
+                        </Link>
 
-                        <div className="vuesax-outline-arrow" />
-                        </div>
+
                     </div>
 
                     <div className="box">
@@ -194,23 +215,21 @@ const Transportasi = () => {
 
                         <div className="text-wrapper-7">Penanganan Kargo</div>
 
-                        <div className="tombol-2">
-                        <div className="text-wrapper-8">Baca Selengkapnya</div>
-
-                        <div className="vuesax-outline-arrow-2" />
-                        </div>
-                    </div>
+                        <Link to="/layanan" className="tombol-2 link-universal">
+                            <div className="text-wrapper-8">Baca Selengkapnya</div>
+                            <img className="img-arrow" alt="Arrow right" src={ArrowRight2} />
+                        </Link>
+                    </div> 
 
                     <div className="box">
                         <img className="info" alt="Info" src={info3} />
 
                         <div className="text-wrapper-7">Layanan Keselamatan Kapal</div>
 
-                        <div className="tombol-2">
-                        <div className="text-wrapper-8">Baca Selengkapnya</div>
-
-                        <img className="img img-arrow" alt="Facebook logo" src={ArrowRight} />
-                        </div>
+                        <Link to="/layanan" className="tombol-2 link-universal">
+                            <div className="text-wrapper-8">Baca Selengkapnya</div>
+                            <img className="img-arrow" alt="Arrow right" src={ArrowRight2} />
+                        </Link>
                     </div>
                     </div>
                 </div>

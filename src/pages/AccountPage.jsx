@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { useState, useEffect, useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 // New Akun
 import ikonPanahKanan from "../assets/img/akun/ikon-panah-kanan.svg";
@@ -73,9 +73,14 @@ const AccountPage = () => {
                             depannya!
                         </p>
 
-                        <div className="tombol-beranda">
+                        <Link to="/booking" className="tombol-beranda link-universal">
                             <div className="text-wrapper-3-beranda">Booking pelayaran</div>
-                        </div>
+                            {/* <img className="img-blog" alt="Arrow right" src={ArrowRight2} /> */}
+                        </Link>
+
+                        {/* <div className="tombol-beranda">
+                            <div className="text-wrapper-3-beranda">Booking pelayaran</div>
+                        </div> */}
                         </div>
 
                         <div className="daftar-jadwal">
@@ -144,13 +149,17 @@ const AccountPage = () => {
                             </div>
 
                             <div className="frame-tombol">
-                            <div className="tombol-2">
-                                <div className="text-wrapper-11">Lacak pelayaran</div>
-                            </div>
+                                <Link to="/penjadwalan" className="tombol-2 link-universal">
+                                    <div className="text-wrapper-11">Lacak pelayaran</div>
+                                    {/* <img className="img-blog" alt="Arrow right" src={ArrowRight2} /> */}
+                                </Link>
+                                {/* <div className="tombol-2">
+                                    <div className="text-wrapper-11">Lacak pelayaran</div>
+                                </div> */}
 
-                            <div className="tombol-cek">
-                                <div className="text-wrapper-12">Detail</div>
-                            </div>
+                                <div className="tombol-cek">
+                                    <div className="text-wrapper-12">Detail</div>
+                                </div>
                             </div>
                         </div>
                         </div>
@@ -170,9 +179,10 @@ const AccountPage = () => {
                         </p>
 
                         <div className="frame-tombol">
-                        <div className="tombol">
-                            <div className="text-wrapper-2-bawah">Booking pelayaran</div>
-                        </div>
+                        <Link to="/akun" className="tombol link-universal">
+                            <div className="text-wrapper-2-bawah">Booking kargo!</div>
+                            {/* <img className="img" alt="Arrow right" src={ArrowRight} /> */}
+                        </Link>
                         </div>
                     </div>
 
@@ -189,9 +199,10 @@ const AccountPage = () => {
                         </p>
 
                         <div className="frame-tombol">
-                        <div className="tombol">
-                            <div className="text-wrapper-2-bawah">Daftar sekarang</div>
-                        </div>
+                        <Link to="/akun" className="tombol link-universal">
+                            <div className="text-wrapper-2-bawah">Cek mitra!</div>
+                            {/* <img className="img" alt="Arrow right" src={ArrowRight} /> */}
+                        </Link>
                         </div>
                     </div>
 
@@ -208,9 +219,10 @@ const AccountPage = () => {
                         </p>
 
                         <div className="frame-tombol">
-                        <div className="tombol">
-                            <div className="text-wrapper-2-bawah">Hubungi kami</div>
-                        </div>
+                        <Link to="/akun" className="tombol link-universal">
+                            <div className="text-wrapper-2-bawah">Hubungi kami!</div>
+                            {/* <img className="img" alt="Arrow right" src={ArrowRight} /> */}
+                        </Link>
                         </div>
                     </div>
                     </div>

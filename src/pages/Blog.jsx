@@ -9,7 +9,7 @@ import fotoBerita2 from "../assets/img/blog/foto-berita-2.png";
 import fotoBerita3 from "../assets/img/blog/foto-berita-3.png";
 import fotoBerita4 from "../assets/img/blog/foto-berita-4.png";
 import ArrowRight  from "../assets/vector/arrow-right.svg";
-
+import ArrowRight2  from "../assets/vector/arrow-right-black.svg";
 
 const Blog = () => {
 
@@ -199,11 +199,22 @@ const Blog = () => {
                         Berikut merupakan tren laporan perusahaan terbaru 2024.
                         </p>
 
-                        <div className="tombol-lihat-laporan">
-                        <div className="text-wrapper-2">Lihat Laporan</div>
 
-                        <img className="img" alt="Facebook logo" src={ArrowRight} />
-                        </div>
+                        <a
+                            href="/assets/files/dummy_pdf.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="tombol-lihat-laporan link-universal"
+                        >
+                        <div className="text-wrapper-2">Lihat Laporan</div>
+                            <img className="img-blog" alt="Arrow right" src={ArrowRight2} />
+                        </a>
+
+                        {/* <div className="tombol-lihat-laporan">
+                            <div className="text-wrapper-2">Lihat Laporan</div>
+
+                            <img className="img" alt="Facebook logo" src={ArrowRight2} />
+                        </div> */}
                     </div>
 
                     <div className="foto-berita-5" />

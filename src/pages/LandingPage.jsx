@@ -164,9 +164,13 @@ const LandingPage = () => {
                                                                 </div>
                                                                 </div>
                                 
-                                                                <div className="tombol-cari">
-                                                                <div className="text-wrapper-5">Cari Jadwal</div>
-                                                                </div>
+                                                                {/* <div className="tombol-cari"> */}
+                                                                <Link to="/penjadwalan" className="tombol-cari link-universal">
+                                                                    <div className="text-wrapper-5">Cari Jadwal</div>
+                                                                    <img className="img" alt="Arrow right" src={ArrowRight} />
+                                                                </Link>
+                                                                    {/* <div className="text-wrapper-5">Cari Jadwal</div> */}
+                                                                {/* </div> */}
                                                             </div>
                                                         </div>
                                                         )}
@@ -217,9 +221,10 @@ const LandingPage = () => {
                                                                 </div>
                                                                 </div>
                                 
-                                                                <div className="tombol-cari">
-                                                                <div className="text-wrapper-5">Cari Jadwal</div>
-                                                                </div>
+                                                                <Link to="/penjadwalan" className="tombol-cari link-universal">
+                                                                    <div className="text-wrapper-5">Cari Jadwal</div>
+                                                                    <img className="img" alt="Arrow right" src={ArrowRight} />
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                         )}
@@ -289,9 +294,10 @@ const LandingPage = () => {
                                                                 </div>
                                                                 </div>
                                 
-                                                                <div className="tombol-cari">
-                                                                <div className="text-wrapper-5">Cari Jadwal</div>
-                                                                </div>
+                                                                <Link to="/penjadwalan" className="tombol-cari link-universal">
+                                                                    <div className="text-wrapper-5">Cari Jadwal</div>
+                                                                    <img className="img" alt="Arrow right" src={ArrowRight} />
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                         )}
@@ -356,23 +362,15 @@ const LandingPage = () => {
                         </div>
                     </div>
 
-                    <div className="content-5">
+                    {/* <div className="content-5">
                         <div className="text-wrapper-3">Lihat Layanan Lainnya</div>
 
                         <img className="img" alt="Facebook logo" src={ArrowRight} />
-                    </div>
-
-                    <Link to="/blog" className='content-5 link-universal'>
-                        <div className="text-wrapper-3">Tekan di sini</div>
-                    </Link>
-
+                    </div> */}
                     <Link to="/layanan" className="content-5 link-universal">
                         <div className="text-wrapper-3">Lihat Layanan Lainnya</div>
                         <img className="img" alt="Arrow right" src={ArrowRight} />
                     </Link>
-
-                    
-                    
                     
 
                     </div>
@@ -774,15 +772,15 @@ const LandingPage = () => {
                             terbaik dengan harga yang terjangkau bagi semua kalangan.
                             </p>
 
-                            <div className="content">
+                            {/* <div className="content"> */}
                                 {/* <div className="text-wrapper-2">Lihat Visi Kami</div> */}
-                                <Link to="/tentangkami" className="text-wrapper-2 link-universal">
-                                    <div className="text-wrapper-2">Lihat Visi Kami</div>
-                                    <img className="img" alt="Arrow right" src={ArrowRight} />
-                                </Link>
+                            <Link to="/tentangkami" className="content link-universal">
+                                <div className="text-wrapper-2">Lihat Visi Kami</div>
+                                <img className="img" alt="Arrow right" src={ArrowRight} />
+                            </Link>
 
                                 {/* <img className="img" alt="Facebook logo" src={ArrowRight} /> */}
-                            </div> 
+                            {/* </div>  */}
                         </div>
 
                         <div className="counter">
@@ -815,15 +813,21 @@ const LandingPage = () => {
                         untuk mendukung kelancaran bisnis di pasar global.
                         </p>
 
-                        <div className="content-misi">
-                            {/* <div className="text-wrapper-2-misi">Lihat Misi Kami</div> */}
+
+                        <Link to="/tentangkami" className="content-misi link-universal">
+                                <div className="text-wrapper-2-misi">Lihat Misi Kami</div>
+                                <img className="img" alt="Arrow right" src={ArrowRight} />
+                            </Link>
+
+                        {/* <div className="content-misi">
+                            <div className="text-wrapper-2-misi">Lihat Misi Kami</div>
                             <Link to="/tentangkami" className="text-wrapper-2-misi link-universal">
                                     <div className="text-wrapper-2-misi">Lihat Misi Kami</div>
                                     <img className="img" alt="Arrow right" src={ArrowRight} />
                                 </Link>
 
-                            {/* <img className="img" alt="Facebook logo" src={ArrowRight} /> */}
-                        </div> 
+                            <img className="img" alt="Facebook logo" src={ArrowRight} />
+                        </div>  */}
                     </div>                    
 
                 </div>

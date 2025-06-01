@@ -14,7 +14,6 @@ export const navLinks2 = [
     path: "blog",
     text: "Berita",
   },
-  
 
 ];
 

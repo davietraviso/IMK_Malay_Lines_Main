@@ -825,10 +825,10 @@
   border-radius: 12px;
   display: inline-flex;
   flex: 0 0 auto;
-  gap: 10px;
+  gap: 20px;
   justify-content: center;
   overflow: hidden;
-  padding: 17px 0px;
+  padding: 17px 20px;
   position: relative;
 }
 
@@ -842,6 +842,6 @@
   margin-top: -1.00px;
   position: relative;
   text-align: center;
-  width: 213px;
+  /* width: 213px; */
 }
 

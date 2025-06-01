@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { useState, useEffect, useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 // New layanan
 
@@ -33,6 +33,8 @@ import gambar11_layanan from "../assets/img/layanan/gambar-11.png";
 import gambar12_layanan from "../assets/img/layanan/gambar-12.png";
 import gambar13_layanan from "../assets/img/layanan/gambar-13.png";
 import gambar14_layanan from "../assets/img/layanan/gambar-14.png";
+import ArrowRight  from "../assets/vector/arrow-right.svg";
+import ArrowRight2  from "../assets/vector/arrow-right-black.svg";
 
 
 const Layanan = () => {
@@ -199,12 +201,6 @@ const Layanan = () => {
         </section>
 
         <section className="cont_main">
-            <div className="divutama jadwal-pelayaran">
-                Baru!
-            </div>
-        </section>
-
-        <section className="cont_main">
             <div className="jadwal-pelayaran">
                 <div className="judul">
                     <div className="text-wrapper">Jadwal Pelayaran</div>
@@ -239,11 +235,16 @@ const Layanan = () => {
                                 </p>
                             </div>
 
-                            <button className="CTA">
-                            <div className="button-CTA">
+                            {/* <button className="CTA"> */}
+                            {/* <div className="button-CTA">
                                 <div className="text-wrapper-2">Lihat</div>
-                            </div>
-                            </button>
+                            </div> */}
+
+                            <Link to="/penjadwalan" className="button-CTA link-universal">
+                                <div className="text-wrapper-2">Lihat</div>
+                                <img className="img" alt="Arrow right" src={ArrowRight} />
+                            </Link>
+                            {/* </button> */}
                         </div>
                     </div>
 
@@ -269,11 +270,10 @@ const Layanan = () => {
                         </p>
                         </div>
 
-                        <button className="CTA">
-                        <div className="button-CTA">
+                        <Link to="/penjadwalan" className="button-CTA link-universal">
                             <div className="text-wrapper-2">Lihat</div>
-                        </div>
-                        </button>
+                            <img className="img" alt="Arrow right" src={ArrowRight} />
+                        </Link>
                     </div>
                     </div>
 
@@ -299,11 +299,10 @@ const Layanan = () => {
                         </p>
                         </div>
 
-                        <button className="CTA">
-                        <div className="button-CTA">
+                        <Link to="/penjadwalan" className="button-CTA link-universal">
                             <div className="text-wrapper-2">Lihat</div>
-                        </div>
-                        </button>
+                            <img className="img" alt="Arrow right" src={ArrowRight} />
+                        </Link>
                     </div>
                     </div>
                 </div>
@@ -351,16 +350,22 @@ const Layanan = () => {
                 </div>
  
                 <div className="section-our-services">
+                    
                     <div className="aliran">
-                    <div className="tombol">
-                        <div className="div">Pelajari lebih lanjut</div>
-                    </div>
+                        <Link to="/transportasi" className="tombol link-universal">
+                            <div className="div">Pelajari lebih lanjut</div>
+                            <img className="img" alt="Arrow right" src={ArrowRight2} />
+                        </Link>
+                        {/* <div className="tombol">
+                            <div className="div">Pelajari lebih lanjut</div>
+                        </div> */}
                     </div>
 
                     <div className="aliran-2">
-                    <div className="tombol">
-                        <div className="div">Pelajari lebih lanjut</div>
-                    </div>
+                        <Link to="/transportasi" className="tombol link-universal">
+                            <div className="div">Pelajari lebih lanjut</div>
+                            <img className="img" alt="Arrow right" src={ArrowRight2} />
+                        </Link>
                     </div>
                 </div>
                 </div>

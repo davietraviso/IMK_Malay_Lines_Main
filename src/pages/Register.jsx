@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { useState, useEffect, useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 
 // New Login
@@ -281,9 +281,14 @@ const Register = () => {
                         </div>
                     </div>
 
-                    <div className="tombol-buat">
+                    <Link to="/akun" className="tombol-buat link-universal">
+                            <div className="text-wrapper-8">Buat akun baru</div>
+                            {/* <img className="img-blog" alt="Arrow right" src={ArrowRight2} /> */}
+                        </Link>
+
+                    {/* <div className="tombol-buat">
                         <div className="text-wrapper-8">Buat akun baru</div>
-                    </div>
+                    </div> */}
                     </div>
 
                     <div className="gambar" />

@@ -345,7 +345,7 @@
     align-items: center;
     background-color: #134074;
     display: flex;
-    gap: 8px;
+    /* gap: 8px; */
     height: 67px;
     border-radius: 10px;
     justify-content: center;

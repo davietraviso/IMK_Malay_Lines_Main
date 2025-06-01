@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { useState, useEffect, useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 
 // New Login
@@ -116,9 +116,14 @@ const Login = () => {
                             </p>
                         </div>
 
-                        <div className="tombol-login">
+                        <Link to="/akun" className="tombol-login link-universal">
                             <div className="sign-up">Log in</div>
-                        </div>
+                            {/* <img className="img-blog" alt="Arrow right" src={ArrowRight2} /> */}
+                        </Link>
+
+                        {/* <div className="tombol-login">
+                            <div className="sign-up">Log in</div>
+                        </div> */}
                         </div>
                     </div>
                     </div>
@@ -132,8 +137,13 @@ const Login = () => {
                         <p className="div-2">
                         <span className="span">Tidak punya akun? </span>
 
-                        <span className="text-wrapper-7">Daftar akun</span>
+
+                        {/* <span className="text-wrapper-7">Daftar akun</span> */}
                         </p>
+                        <Link to="/register" className="alink-universal">
+                            <div className="text-wrapper-7">Daftar akun</div>
+                            {/* <img className="img-blog" alt="Arrow right" src={ArrowRight2} /> */}
+                        </Link>
                     </div>
                     </div>
                 </div>

@@ -60,6 +60,103 @@ const Penjadwalan = () => {
         setShowDetail3(!showDetail3);
     };
 
+    // Swap
+
+    const [isSwapped, setIsSwapped] = useState(false);
+
+    const renderLeftForm = () => (
+    <div className="div-2-p2p">
+        <div className="div-3-p2p">
+            
+            <div className="text-wrapper-5">Nama Pelabuhan / Negara Asal</div>
+
+            <div className="search-bar-p2p">
+                <img className="ikon-kapal" alt="Ikon kapal" src={ikonKapal} />
+
+                {/* <p className="text-wrapper-3 m-0">
+                    
+                </p> */}
+                <input
+                    type="text"
+                    className="text-wrapper-3"
+                    placeholder="Masukkan nama pelabuhan / negara asal"
+                    // value={namaNegara}
+                    // onChange={(e) => setNamaNegara(e.target.value)}
+                />
+
+                <img className="ikon-cari" alt="Ikon cari" src={ikonCari} />
+            </div>
+        </div>
+
+        <div className="row-asal">
+            <div className="tombol-cari">
+                <div className="text-wrapper-4">
+                    TAMPA, AMERIKA SERIKAT (USTPA)
+                </div>
+
+                <div className="text-wrapper-4">X</div>
+            </div>
+
+            <div className="tombol-cari">
+                <div className="text-wrapper-4">
+                    TACOMA, AMERIKA SERIKAT (USTIW)
+                </div>
+
+                <div className="text-wrapper-4">X</div>
+            </div>
+        </div>
+    </div>
+    );
+
+    const renderRightForm = () => (
+    <div className="div-2-p2p">
+        <div className="div-3-p2p">
+            <div className="text-wrapper-5">Tanggal Keberangkatan</div>
+
+            <div className="search-bar-p2p">
+                <img className="ikon-globe" alt="Ikon globe" src={ikonGlobe} />
+
+                <p className="text-wrapper-6 m-0">
+                    
+                </p>
+                <input
+                    type="text"
+                    className="text-wrapper-3"
+                    placeholder="Masukkan nama pelabuhan / negara tujuan"
+                    // value={namaNegara}
+                    // onChange={(e) => setNamaNegara(e.target.value)}
+                />
+            </div>
+        </div>
+
+        <div className="row-asal">
+            <div className="tombol-cari">
+                <div className="text-wrapper-4">
+                    THAMESPORT, UNITED KINGDOM (GBTHP)
+                </div>
+
+                <div className="text-wrapper-4">X</div>
+            </div>
+
+            <div className="tombol-cari">
+                <div className="text-wrapper-4">
+                    TEESPORT, UNITED KINGDOM (GBTEE)
+                </div>
+
+                <div className="text-wrapper-4">X</div>
+            </div>
+        </div>
+    </div>
+    );
+
+    const renderSwapButton = () => (
+    <div className="kolom-swap" onClick={() => setIsSwapped(!isSwapped)}>
+        <img className="swap-button" alt="Swap button" src={swapButton} />
+    </div>
+    );
+
+
+
       
   return (
     <>
@@ -116,93 +213,109 @@ const Penjadwalan = () => {
                     <>
                         {/* FORM P2P */}
                         <div className="tabel-form">
-                        
+
                             <div className="row-pilihan-form">
-                                <div className="div-2-p2p">
-                                <div className="div-3-p2p">
-                                    
-                                    <div className="text-wrapper-5">Nama Pelabuhan / Negara Asal</div>
-
-                                    <div className="search-bar-p2p">
-                                    <img className="ikon-kapal" alt="Ikon kapal" src={ikonKapal} />
-
-                                    {/* <p className="text-wrapper-3 m-0">
-                                        
-                                    </p> */}
-                                    <input
-                                        type="text"
-                                        className="text-wrapper-3"
-                                        placeholder="Masukkan nama pelabuhan / negara asal"
-                                        // value={namaNegara}
-                                        // onChange={(e) => setNamaNegara(e.target.value)}
-                                    />
-
-                                    <img className="ikon-cari" alt="Ikon cari" src={ikonCari} />
-                                    </div>
-                                </div>
-
-                                <div className="row-asal">
-                                    <div className="tombol-cari">
-                                        <div className="text-wrapper-4">
-                                            TAMPA, AMERIKA SERIKAT (USTPA)
-                                        </div>
-
-                                        <div className="text-wrapper-4">X</div>
-                                    </div>
-
-                                    <div className="tombol-cari">
-                                        <div className="text-wrapper-4">
-                                            TACOMA, AMERIKA SERIKAT (USTIW)
-                                        </div>
-
-                                        <div className="text-wrapper-4">X</div>
-                                    </div>
-                                </div>
-                                </div>
-
-                                <div className="kolom-swap">
-                                <img className="swap-button" alt="Swap button" src={swapButton} />
-                                </div>
-
-                                <div className="div-2-p2p">
-                                <div className="div-3-p2p">
-                                    <div className="text-wrapper-5">Tanggal Keberangkatan</div>
-
-                                    <div className="search-bar-p2p">
-                                        <img className="ikon-globe" alt="Ikon globe" src={ikonGlobe} />
-
-                                        <p className="text-wrapper-6 m-0">
-                                            
-                                        </p>
-                                        <input
-                                            type="text"
-                                            className="text-wrapper-3"
-                                            placeholder="Masukkan nama pelabuhan / negara tujuan"
-                                            // value={namaNegara}
-                                            // onChange={(e) => setNamaNegara(e.target.value)}
-                                        />
-                                    </div>
-                                </div>
-
-                                <div className="row-asal">
-                                    <div className="tombol-cari">
-                                        <div className="text-wrapper-4">
-                                            THAMESPORT, UNITED KINGDOM (GBTHP)
-                                        </div>
-
-                                        <div className="text-wrapper-4">X</div>
-                                    </div>
-
-                                    <div className="tombol-cari">
-                                        <div className="text-wrapper-4">
-                                            TEESPORT, UNITED KINGDOM (GBTEE)
-                                        </div>
-
-                                        <div className="text-wrapper-4">X</div>
-                                    </div>
-                                </div>
-                                </div>
+                                {isSwapped ? (
+                                    <>
+                                    {/* RIGHT (Tujuan) first */}
+                                    {renderRightForm()}
+                                    {renderSwapButton()}
+                                    {renderLeftForm()}
+                                    </>
+                                ) : (
+                                    <>
+                                    {/* LEFT (Asal) first */}
+                                    {renderLeftForm()}
+                                    {renderSwapButton()}
+                                    {renderRightForm()}
+                                    </>
+                                )}
                             </div>
+
+                        
+                            {/* <div className="row-pilihan-form">
+                                <div className="div-2-p2p">
+                                    <div className="div-3-p2p">
+                                        
+                                        <div className="text-wrapper-5">Nama Pelabuhan / Negara Asal</div>
+
+                                        <div className="search-bar-p2p">
+                                            <img className="ikon-kapal" alt="Ikon kapal" src={ikonKapal} />
+
+             
+                                            <input
+                                                type="text"
+                                                className="text-wrapper-3"
+                                                placeholder="Masukkan nama pelabuhan / negara asal"
+                               
+                                            />
+
+                                            <img className="ikon-cari" alt="Ikon cari" src={ikonCari} />
+                                        </div>
+                                    </div>
+
+                                    <div className="row-asal">
+                                        <div className="tombol-cari">
+                                            <div className="text-wrapper-4">
+                                                TAMPA, AMERIKA SERIKAT (USTPA)
+                                            </div>
+
+                                            <div className="text-wrapper-4">X</div>
+                                        </div>
+
+                                        <div className="tombol-cari">
+                                            <div className="text-wrapper-4">
+                                                TACOMA, AMERIKA SERIKAT (USTIW)
+                                            </div>
+
+                                            <div className="text-wrapper-4">X</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="kolom-swap" onClick={() => setIsSwapped(!isSwapped)}>
+                                    <img className="swap-button" alt="Swap button" src={swapButton} />
+                                </div>
+
+
+                                <div className="div-2-p2p">
+                                    <div className="div-3-p2p">
+                                        <div className="text-wrapper-5">Tanggal Keberangkatan</div>
+
+                                        <div className="search-bar-p2p">
+                                            <img className="ikon-globe" alt="Ikon globe" src={ikonGlobe} />
+
+                                            <p className="text-wrapper-6 m-0">
+                                                
+                                            </p>
+                                            <input
+                                                type="text"
+                                                className="text-wrapper-3"
+                                                placeholder="Masukkan nama pelabuhan / negara tujuan"
+                          
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <div className="row-asal">
+                                        <div className="tombol-cari">
+                                            <div className="text-wrapper-4">
+                                                THAMESPORT, UNITED KINGDOM (GBTHP)
+                                            </div>
+
+                                            <div className="text-wrapper-4">X</div>
+                                        </div>
+
+                                        <div className="tombol-cari">
+                                            <div className="text-wrapper-4">
+                                                TEESPORT, UNITED KINGDOM (GBTEE)
+                                            </div>
+
+                                            <div className="text-wrapper-4">X</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> */}
 
                             <div className="form-tanggal">
                                 <div className="text-wrapper-5">Tanggal Keberangkatan</div>
@@ -943,15 +1056,23 @@ const Penjadwalan = () => {
 
                             {/* </div> */}
 
+                            
+
                             <div className="form-tanggal">
                                 <div className="text-wrapper-5">Tanggal Keberangkatan</div>
 
                                 <div className="search-bar-p2p">
                                 <img className="ikon-tanggal" alt="Ikon tanggal" src={ikonTanggal} />
 
-                                <div className="text-wrapper-7">17/04/2025</div>
+                                <input
+                                    type="text"
+                                    className="text-wrapper-3"
+                                    placeholder="17/04/2025"
+                                    // value={namaNegara}
+                                    // onChange={(e) => setNamaNegara(e.target.value)}
+                                />
 
-                                <img className="arrow-down" alt="Arrow down" src={arrowDown} />
+                                {/* <img className="arrow-down" alt="Arrow down" src={arrowDown} /> */}
                                 </div>
                             </div>
 

@@ -63,6 +63,18 @@
   width: fit-content;
 }
 
+.base-4 .frame-asal-kargo .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Archivo-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.50px;
+  line-height: 30px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
 .base-4 .frame-atas .div {
   color: #333333;
   font-family: "Archivo-Black", Helvetica;

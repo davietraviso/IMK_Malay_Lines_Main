@@ -10,12 +10,13 @@ import gambar2 from "../assets/img/tentangkami/gambar-2.png";
 import bookingIkon from "../assets/img/tentangkami/ikon-booking.svg";
 import daftarIkon from "../assets/img/tentangkami/ikon-daftar.svg";
 import callIcon from "../assets/img/tentangkami/ikon-call.svg";
-
+import ArrowRight  from "../assets/vector/arrow-right.svg";
+import ArrowRight2  from "../assets/vector/arrow-right-black.svg";
 
 
 const TentangKami = () => {
       
-  return ( 
+  return (
     <>
 
         <section className="cont_main">
@@ -26,7 +27,7 @@ const TentangKami = () => {
 
                     </div> 
 
-                </div>
+                </div> 
             </div>
 
         </section>
@@ -119,19 +120,16 @@ const TentangKami = () => {
                         Segera booking kargo pilihan perusahaan anda melalui layanan kami!
                     </p>
 
-                    <div className="frame-tombol">
+                    <Link to="/login" className="tombol link-universal">
+                        <div className="text-wrapper-2">Booking kargo!</div>
+                        {/* <img className="img" alt="Arrow right" src={ArrowRight} /> */}
+                    </Link>
 
-                        <Link to="/login" className='tombol link-universal'>
-                            <div className="text-wrapper-2">Booking kargo</div>
-                        
-                        </Link>
-
-
-                        {/* <div className="tombol">
-                            <div className="text-wrapper-2">Booking kargo</div>
-                        </div> */}
-
+                    {/* <div className="frame-tombol">
+                    <div className="tombol">
+                        <div className="text-wrapper-2">Booking kargo</div>
                     </div>
+                    </div> */}
                 </div>
 
                 <div className="div-tk">
@@ -144,19 +142,13 @@ const TentangKami = () => {
                         tawarkan!
                     </p>
 
-                    <div className="frame-tombol">
-                        {/* <div className="tombol">
-                            <div className="text-wrapper-2">Daftar sekarang</div>
-                        </div> */}
-
-                        <Link to="/register" className='tombol link-universal'>
-                            <div className="text-wrapper-2">Daftar sekarang</div>
-                        
-                        </Link>
-                    </div>
+                    <Link to="/login" className="tombol link-universal">
+                        <div className="text-wrapper-2">Daftar Sekarang!</div>
+                        {/* <img className="img" alt="Arrow right" src={ArrowRight} /> */}
+                    </Link>
                 </div>
 
-
+ 
                 <div className="div-tk">
                     <img className="img" alt="Call icon" src={callIcon} />
 
@@ -166,16 +158,10 @@ const TentangKami = () => {
                     Kami sedia membantu anda kapanpun demi membantu kebingung apapun!
                     </p>
 
-                    <div className="frame-tombol">
-                        {/* <div className="tombol">
-                            <div className="text-wrapper-2">Hubungi kami</div>
-                        </div> */}
-                        
-                        <Link to="/login" className='tombol link-universal'>
-                            <div className="text-wrapper-2">Hubungi kami</div>
-                        
-                        </Link>
-                    </div>
+                    <Link to="/login" className="tombol link-universal">
+                        <div className="text-wrapper-2">Hubungi Kami!</div>
+                        {/* <img className="img" alt="Arrow right" src={ArrowRight} /> */}
+                    </Link>
                 </div>
                 </div>
 

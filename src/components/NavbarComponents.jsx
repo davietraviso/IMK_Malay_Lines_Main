@@ -52,7 +52,6 @@ const NavBarComponents = () => {
             <Navbar.Collapse id="basic-navbar-nav-left" className="d-flex justify-content-center">
               <Nav className="d-flex justify-content-center align-items-center">
                 {navLinks.map((link) => (
-                  
                   <NavLink
                     key={link.id}
                     to={link.path}
@@ -62,7 +61,6 @@ const NavBarComponents = () => {
                     onClick={() => handleNavLinkClick(link.path)}
                     end
                   >
-
                     {link.text}
                   </NavLink>
                 ))}
@@ -87,7 +85,6 @@ const NavBarComponents = () => {
             <Navbar.Collapse id="basic-navbar-nav-right" className="d-flex justify-content-center">
               <Nav className="d-flex justify-content-center align-items-center">
                 {navLinks2.map((link) => (
-                  
                   <NavLink
                     key={link.id}
                     to={link.path}
@@ -108,8 +105,6 @@ const NavBarComponents = () => {
               </Nav>
             </Navbar.Collapse>
           </div>
-
-          
         </Container>
 
       </Navbar>

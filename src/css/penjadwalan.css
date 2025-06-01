@@ -278,13 +278,20 @@
   
 }
 
+
+
 .tabel-form .swap-button {
-  height: 55px;
+  height: 44px;
   position: relative;
-  width: 55px;
+  width: 44px;
   background-color: #333333;
   padding: 10px 10px;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.tabel-form .swap-button:hover {
+  background-color: #333333b9;
 }
 
 .tabel-form .text-wrapper-5 {
@@ -388,6 +395,10 @@
   justify-content: center;
   padding: 16px 40px;
   position: relative;
+}
+
+.tabel-form .div-wrapper-p2p:hover {
+  background-color: #333333b9;
 }
 
 

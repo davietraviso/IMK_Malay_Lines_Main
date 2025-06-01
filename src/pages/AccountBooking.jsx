@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { useState, useEffect, useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 
 
@@ -122,9 +122,14 @@ const AccountBooking = () => {
                         />
                     </div>
 
-                    <div className="tombol">
+                    <Link to="/booking-1" className="tombol link-universal">
+                        <div className="text-wrapper-3">Cari pelayaran</div>
+                        {/* <img className="img-blog" alt="Arrow right" src={ArrowRight2} /> */}
+                    </Link>
+
+                    {/* <div className="tombol">
                     <div className="text-wrapper-3">Cari pelayaran</div>
-                    </div>
+                    </div> */}
                 </div>
                 </div>
             </div>
