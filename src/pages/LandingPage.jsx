@@ -356,15 +356,23 @@ const LandingPage = () => {
                         </div>
                     </div>
 
-                    {/* <div className="content-5">
+                    <div className="content-5">
                         <div className="text-wrapper-3">Lihat Layanan Lainnya</div>
 
                         <img className="img" alt="Facebook logo" src={ArrowRight} />
-                    </div> */}
+                    </div>
+
+                    <Link to="/blog" className='content-5 link-universal'>
+                        <div className="text-wrapper-3">Tekan di sini</div>
+                    </Link>
+
                     <Link to="/layanan" className="content-5 link-universal">
                         <div className="text-wrapper-3">Lihat Layanan Lainnya</div>
                         <img className="img" alt="Arrow right" src={ArrowRight} />
                     </Link>
+
+                    
+                    
                     
 
                     </div>

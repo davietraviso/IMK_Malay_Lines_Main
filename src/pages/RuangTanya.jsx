@@ -67,13 +67,13 @@ const Feedback = () => {
                     <div className="filtering">
                         <div className="search-bar">
                         {/* <div className="text-wrapper-2">Cari Pertanyaan..</div> */}
-                        <input
-                            type="text"
-                            className="text-wrapper-3"
-                            placeholder="Cari Pertanyaan.."
-                            // value={namaNegara}
-                            // onChange={(e) => setNamaNegara(e.target.value)}
-                        />
+                            <input
+                                type="text"
+                                className="text-wrapper-3"
+                                placeholder="Cari Pertanyaan.."
+                                // value={namaNegara}
+                                // onChange={(e) => setNamaNegara(e.target.value)}
+                            />
 
                         <img className="simbol-cari" alt="Simbol cari" src={simbolCari} />
                         </div>

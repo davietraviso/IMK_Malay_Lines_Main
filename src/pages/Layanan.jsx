@@ -199,6 +199,12 @@ const Layanan = () => {
         </section>
 
         <section className="cont_main">
+            <div className="divutama jadwal-pelayaran">
+                Baru!
+            </div>
+        </section>
+
+        <section className="cont_main">
             <div className="jadwal-pelayaran">
                 <div className="judul">
                     <div className="text-wrapper">Jadwal Pelayaran</div>

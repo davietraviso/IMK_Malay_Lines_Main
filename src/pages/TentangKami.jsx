@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import { useState, useEffect, useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 // New Tentang Kami
 
@@ -15,7 +15,7 @@ import callIcon from "../assets/img/tentangkami/ikon-call.svg";
 
 const TentangKami = () => {
       
-  return (
+  return ( 
     <>
 
         <section className="cont_main">
@@ -120,9 +120,17 @@ const TentangKami = () => {
                     </p>
 
                     <div className="frame-tombol">
-                    <div className="tombol">
-                        <div className="text-wrapper-2">Booking kargo</div>
-                    </div>
+
+                        <Link to="/login" className='tombol link-universal'>
+                            <div className="text-wrapper-2">Booking kargo</div>
+                        
+                        </Link>
+
+
+                        {/* <div className="tombol">
+                            <div className="text-wrapper-2">Booking kargo</div>
+                        </div> */}
+
                     </div>
                 </div>
 
@@ -137,9 +145,14 @@ const TentangKami = () => {
                     </p>
 
                     <div className="frame-tombol">
-                    <div className="tombol">
-                        <div className="text-wrapper-2">Daftar sekarang</div>
-                    </div>
+                        {/* <div className="tombol">
+                            <div className="text-wrapper-2">Daftar sekarang</div>
+                        </div> */}
+
+                        <Link to="/register" className='tombol link-universal'>
+                            <div className="text-wrapper-2">Daftar sekarang</div>
+                        
+                        </Link>
                     </div>
                 </div>
 
@@ -154,9 +167,14 @@ const TentangKami = () => {
                     </p>
 
                     <div className="frame-tombol">
-                    <div className="tombol">
-                        <div className="text-wrapper-2">Hubungi kami</div>
-                    </div>
+                        {/* <div className="tombol">
+                            <div className="text-wrapper-2">Hubungi kami</div>
+                        </div> */}
+                        
+                        <Link to="/login" className='tombol link-universal'>
+                            <div className="text-wrapper-2">Hubungi kami</div>
+                        
+                        </Link>
                     </div>
                 </div>
                 </div>
